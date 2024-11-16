@@ -1,0 +1,29 @@
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    background-color: blue;
+    width: 250px;
+    height: 80px;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#quote, #author {
+    font-size: 35px;
+}
