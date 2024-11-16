@@ -3,10 +3,9 @@ var quotes = ["You miss 100% of the shots you don't take.", "It's not what happe
 ]
 var teller = ["--Wayne Gretzy", "--Epictetus", "--Frank Sinatra", "--Nelson Mandela", "--Elbert Hubbard"]
 
-
+var lastNumber;
 function generateRandomNumber() {
     var newNumber;
-    var lastNumber;
     do {
         newNumber = Math.floor(Math.random() * 5);
     } while (newNumber === lastNumber);
